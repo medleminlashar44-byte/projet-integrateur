@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
+    <head>
     <title>projet integrateur</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
     <body>
-        <video width="400" height="150" controls></video><<br><br>
-        <button>activer cmaera</button><br><br>
+        <h1>Projet integrateur SupNum</h1>
+        <div class="container"><div class="vid">
+        <video id="webcam" autoplay playsinline></video><br><br>
+        <button id="cameraBtn">activer cmaera</button><br><br></div><div class="vid">
+        <div class="flex">
         <label>nom</label>
-        <input type="text" placeholder="lashar"><br><br>
+        <input type="text" placeholder="lashar" id="nom"></div><br><br>
+        <div class="flex">
         <label>matricule</label>
-        <input tyoe="text" placeholder="25130"><br><br>
-        <button>save face</button>
+        <input tyoe="text" placeholder="25130" id="matricule"></div><br><br>
+        <button type="submit">save face</button></div></div>
+        <script src="scripts.js"></script>
     </body>
 </html>
