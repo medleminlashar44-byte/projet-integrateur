@@ -1,9 +1,15 @@
 .container{
     display: flex;
+    width: fit-content;
     padding: 20px;
     gap: 140px;
     text-align: center;
-    margin-left: 25%
+    margin-left: 24%;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #021b46;
+    box-shadow: #000205;
 }
 
 .vid{
@@ -18,14 +24,22 @@ input{
     padding-left: 10px;
     font-size: 16px;
     flex: 1;
+    border-radius: 8px;
+    background-color: rgba(225, 225, 225, 0.9);
+    border: 2px solid #3d5a80;
+    color:#2b2d42;
+    outline: none;
+    
 }
 button{
     height:40px;
     width: 100%;
     border-radius:10px;
     font-weight: bold;
-    background-color: black;
+    background-color: green;
     color: white;
+    border-color: darkgreen;
+    font-size: 20px;
 }
 video{
     width:100%;
@@ -45,7 +59,16 @@ label{
     font-weight: bold;
     text-align: left;
     font-size:20px;
+    color:#e0e6ed;
+
 }
 h1{
     margin-left: 40%;
+    color: #f0fff0;
+    text-shadow: 2px 2px 4px;
+    
+   
+}
+body{
+    background-color: #031027 ;
 }
