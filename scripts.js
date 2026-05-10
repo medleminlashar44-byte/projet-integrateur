@@ -10,10 +10,10 @@ async function startCamera() {
         
         video.srcObject = stream;
         
-        console.log("Camera started successfully!");
+        console.log("Camera started successfully");
     } catch (err) {
         
-        alert("Error: Could not access camera. " + err);
+        alert("Could not access camera. " + err);
     }
 }
 
