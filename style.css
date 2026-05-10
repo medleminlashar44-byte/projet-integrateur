@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    padding: 20px;
+    gap: 140px;
+    text-align: center;
+}
+
+.vid{
+    display: flex;
+    flex-direction: column;
+    width:450px;
+    
+    
+}
+input{
+    height: 35px;
+    padding-left: 10px;
+    font-size: 16px;
+    flex: 1;
+}
+button{
+    height:40px;
+    width: 100%;
+    border-radius:10px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+video{
+    width:100%;
+    
+}
+.flex{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+label{
+    width: 100px;
+    font-weight: bold;
+    text-align: left;
+    font-size:20px;
+}
+h1{
+    align:center;
+}
