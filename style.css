@@ -3,6 +3,7 @@
     padding: 20px;
     gap: 140px;
     text-align: center;
+    margin-left: 25%
 }
 
 .vid{
@@ -28,6 +29,9 @@ button{
 }
 video{
     width:100%;
+    border-radius: 5px;
+    border:1px solid;
+
     
 }
 .flex{
@@ -43,5 +47,5 @@ label{
     font-size:20px;
 }
 h1{
-    align:center;
+    margin-left: 40%;
 }
